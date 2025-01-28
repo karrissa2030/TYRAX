@@ -3,4 +3,9 @@ services:
     name: thetyraxes-Bot
     env: docker
     region: Frankfurt
+    plan: freeservices:
+  - type: web
+    name: thetyraxes-Bot
+    env: docker
+    region: Frankfurt
     plan: free
